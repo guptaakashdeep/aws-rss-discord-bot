@@ -1,0 +1,10 @@
+- name: hello
+  description: Say hello!
+
+- name: fetch
+  description: Fetches blog posts from big data blog
+  options:
+    - name: message
+      description: The name of the blog to fetch from.
+      type: 3 # string
+      required: true
