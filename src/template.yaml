@@ -3,7 +3,7 @@ Transform: AWS::Serverless-2016-10-31
 Description: >
   aws-rss-discord-bot
 
-  Sample SAM Template for aws-rss-discord-bot
+  SAM Template for aws-rss-discord-bot
 
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
@@ -75,7 +75,7 @@ Outputs:
     Description: "Verify Request Lambda Function ARN"
     Value: !GetAtt VerifyRequestFunction.Arn
   VerifyRequestIamRole:
-    Description: "Implicit IAM Role created for Hello World function"
+    Description: "Implicit IAM Role created for Verify Request function"
     Value: !GetAtt VerifyRequestFunctionRole.Arn
   ExecuteCommandFunction:
     Description: "Execute Command Lambda Function ARN"
